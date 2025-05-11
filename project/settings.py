@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%7c9gk*3n6&z8&__766rj6oaw@8p6yi3x-a(0eu(53z(jbl042
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['your-backend-service.onrender.com']
+ALLOWED_HOSTS = ["*"]
 import os
 
 # Add this to serve the outputs directory
